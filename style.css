@@ -42,7 +42,7 @@ footer{
     display: flex;
     position: sticky;
     top: 3rem;
-    background-color: rgba(15, 7, 7, 0.5);
+    /* background-color: rgba(15, 7, 7, 0.5); */
 }
 #navbar ul {
     display: flex;
@@ -65,12 +65,19 @@ footer{
 .showcase {
     margin-top: 10rem;
     margin-left: 15rem;
-    background-color: rgba(15, 7, 7, 0.5);
     border-radius: 1rem;
     width: 45rem;
     font-size: 1.5rem;
     color: aliceblue;
     padding: 2rem;
+}
+
+.showcase-div {
+    background-color: rgba(15, 7, 7, 0.5);
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    color: aliceblue;
 }
 
 .showcase h1{
